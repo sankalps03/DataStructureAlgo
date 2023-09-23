@@ -4,9 +4,9 @@ public class FindTheMissingNumberInArray {
 
     public static void main(String[] args) {
 
-        int[] array = {1,2,3,4,5,7,8,9,10};
+        int[] array = {1,2,3,4,5,7,8,9,10,11};
 
-        int maxNumber = 10;
+        int maxNumber = 11;
 
         System.out.println("Missing Number: "+findMissingNumber(array,maxNumber));
     }
